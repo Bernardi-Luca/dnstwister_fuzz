@@ -1,5 +1,5 @@
 fileDomains=open("twistInput","r")
-fileTwist=open("resolvedTwist","r")
+fileTwist=open("twistOut_resolv","r")
 
 domainsLines=fileDomains.read()
 twistLines=fileTwist.readlines()
