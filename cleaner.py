@@ -4,7 +4,7 @@ fileTwist=open("twistOut_resolv","r")
 domainsLines=fileDomains.read()
 twistLines=fileTwist.readlines()
 
-fileOut=open("twist_no_orig","w")
+fileOut=open("twist_no_orig","a")
 
 for line in twistLines:
         line2=line.split("-->")[0].strip().lower()
